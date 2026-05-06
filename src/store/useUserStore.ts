@@ -11,6 +11,10 @@ interface UserActions {
   toggleFavorite: (recipeId: string) => void;
   addHistory: (entry: Omit<HistoryRecord, 'cookedAt'> & { cookedAt?: string }) => void;
   isFavorite: (recipeId: string) => boolean;
+  addRequest: (text: string) => void;
+  toggleRequestDone: (id: string) => void;
+  editRequest: (id: string, text: string) => void;
+  deleteRequest: (id: string) => void;
 }
 
 const initialState: UserState = {
@@ -20,6 +24,7 @@ const initialState: UserState = {
   allergies: {},
   favorites: [],
   history: [],
+  requests: [],
 };
 
 export const useUserStore = create<UserState & UserActions>()(
@@ -60,9 +65,45 @@ export const useUserStore = create<UserState & UserActions>()(
         })),
 
       isFavorite: (recipeId) => get().favorites.some((f) => f.recipeId === recipeId),
+
+      addRequest: (text) =>
+        set((s) => ({
+          requests: [
+            {
+              id: `req_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`,
+              text: text.trim(),
+              createdAt: new Date().toISOString(),
+              done: false,
+            },
+            ...s.requests,
+          ],
+        })),
+
+      toggleRequestDone: (id) =>
+        set((s) => ({
+          requests: s.requests.map((r) =>
+            r.id === id ? { ...r, done: !r.done } : r
+          ),
+        })),
+
+      editRequest: (id, text) =>
+        set((s) => ({
+          requests: s.requests.map((r) =>
+            r.id === id ? { ...r, text: text.trim() } : r
+          ),
+        })),
+
+      deleteRequest: (id) =>
+        set((s) => ({
+          requests: s.requests.filter((r) => r.id !== id),
+        })),
     }),
     {
       name: 'baby-food-app:v1',
+      migrate: (persistedState: unknown, _version) => {
+        const s = (persistedState ?? {}) as Partial<UserState>;
+        return { ...s, requests: s.requests ?? [] } as UserState;
+      },
     }
   )
 );

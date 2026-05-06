@@ -6,8 +6,9 @@ import { PantryView } from './views/PantryView';
 import { RecipesView } from './views/RecipesView';
 import { AllergyView } from './views/AllergyView';
 import { FavoritesView } from './views/FavoritesView';
+import { RequestsView } from './views/RequestsView';
 
-export type Tab = 'home' | 'pantry' | 'recipes' | 'allergy' | 'favorites';
+export type Tab = 'home' | 'pantry' | 'recipes' | 'allergy' | 'favorites' | 'requests';
 
 export default function App() {
   const [tab, setTab] = useState<Tab>('home');
@@ -35,6 +36,7 @@ export default function App() {
           onSelectRecipe={(id) => { setSelectedRecipeId(id); setTab('recipes'); }}
         />
       )}
+      {tab === 'requests' && <RequestsView />}
     </AppShell>
   );
 }

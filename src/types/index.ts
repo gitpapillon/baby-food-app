@@ -74,6 +74,13 @@ export interface HistoryRecord {
   rating?: 1 | 2 | 3;
 }
 
+export interface RequestNote {
+  id: string;
+  text: string;
+  createdAt: string;
+  done: boolean;
+}
+
 export interface UserState {
   babyBirthDate?: string;
   stageOverride?: Stage;
@@ -81,6 +88,7 @@ export interface UserState {
   allergies: Record<string, AllergyRecord>;
   favorites: FavoriteRecord[];
   history: HistoryRecord[];
+  requests: RequestNote[];
 }
 
 export interface RecipeMatchResult {

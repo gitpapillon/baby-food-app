@@ -13,6 +13,7 @@ const TABS: { id: Tab; label: string; icon: string }[] = [
   { id: 'recipes',   label: '레시피',   icon: '🍚' },
   { id: 'allergy',   label: '알레르기', icon: '⚠️' },
   { id: 'favorites', label: '즐겨찾기', icon: '⭐' },
+  { id: 'requests',  label: '요청사항', icon: '📝' },
 ];
 
 export function AppShell({ tab, onTabChange, children }: Props) {
