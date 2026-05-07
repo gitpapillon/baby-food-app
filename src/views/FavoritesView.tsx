@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useUserStore } from '../store/useUserStore';
 import { StageBadge } from '../components/common/StageBadge';
+import { RecipeThumb } from '../components/common/RecipeThumb';
 import type { Recipe } from '../types';
 import recipesData from '../data/recipes.json';
 
@@ -56,9 +57,7 @@ export function FavoritesView({ onSelectRecipe }: Props) {
                       onClick={() => onSelectRecipe(recipe.id)}
                       className="flex-1 text-left flex items-center gap-3"
                     >
-                      <span className="text-2xl">
-                        {recipe.subType === '미음' ? '🥣' : recipe.subType === '죽' ? '🍚' : recipe.subType === '핑거푸드' ? '🖐️' : '🍱'}
-                      </span>
+                      <RecipeThumb recipe={recipe} />
                       <div>
                         <div className="text-sm font-medium text-gray-900">{recipe.nameKo}</div>
                         <div className="flex items-center gap-1.5 mt-0.5">
@@ -92,9 +91,7 @@ export function FavoritesView({ onSelectRecipe }: Props) {
                     onClick={() => onSelectRecipe(recipe.id)}
                     className="w-full flex items-center gap-3 bg-white border border-gray-100 rounded-xl p-3 shadow-sm text-left hover:bg-green-50 transition-colors"
                   >
-                    <span className="text-2xl">
-                      {recipe.subType === '미음' ? '🥣' : recipe.subType === '죽' ? '🍚' : recipe.subType === '핑거푸드' ? '🖐️' : '🍱'}
-                    </span>
+                    <RecipeThumb recipe={recipe} />
                     <div className="flex-1">
                       <div className="text-sm font-medium text-gray-900">{recipe.nameKo}</div>
                       <div className="text-xs text-gray-400">

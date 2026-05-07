@@ -54,6 +54,7 @@ export interface Recipe {
   allergenIngredientIds: string[];
   tipsKo?: string;
   sourceKo?: string;
+  imageUrl?: string;
 }
 
 export interface AllergyRecord {

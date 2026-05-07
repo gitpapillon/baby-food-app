@@ -3,6 +3,7 @@ import { useUserStore } from '../store/useUserStore';
 import { matchAndFilterRecipes } from '../lib/matcher';
 import { stageFromBirthDate, STAGE_ORDER, STAGE_SHORT } from '../lib/stageUtils';
 import { StageBadge } from '../components/common/StageBadge';
+import { RecipeThumb } from '../components/common/RecipeThumb';
 import type { Recipe, Ingredient, MatchCategory, Stage } from '../types';
 import recipesData from '../data/recipes.json';
 import ingredientsData from '../data/ingredients.json';
@@ -263,12 +264,7 @@ export function RecipesView({ initialRecipeId, onClearSelected }: Props) {
               onClick={() => setSelectedId(r.recipe.id)}
               className="w-full bg-white border border-gray-100 rounded-xl p-3 flex items-center gap-3 shadow-sm text-left hover:bg-green-50 transition-colors"
             >
-              <div className="text-2xl">
-                {r.recipe.subType === '미음' ? '🥣' :
-                 r.recipe.subType === '죽' ? '🍚' :
-                 r.recipe.subType === '핑거푸드' ? '🖐️' :
-                 r.recipe.subType === '반찬' ? '🥗' : '🍱'}
-              </div>
+              <RecipeThumb recipe={r.recipe} />
               <div className="flex-1 min-w-0">
                 <div className="font-medium text-gray-900 text-sm truncate">{r.recipe.nameKo}</div>
                 <div className="flex items-center gap-1.5 mt-0.5 flex-wrap">
