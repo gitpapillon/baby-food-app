@@ -25409,5 +25409,1585 @@
     ],
     "tipsKo": "유제품 알레르기 확인 후 제공합니다.",
     "sourceKo": "대한소아과학회/질병관리청 이유식 가이드라인"
+  },
+  {
+    "id": "finishing_129",
+    "nameKo": "두부 계란찜(무염)",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "tofu",
+        "amount": "50g(1/4모)"
+      },
+      {
+        "ingredientId": "egg_whole",
+        "amount": "1개"
+      },
+      {
+        "ingredientId": "milk",
+        "amount": "40ml"
+      },
+      {
+        "ingredientId": "green_onion",
+        "amount": "약간",
+        "optional": true
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "두부를 그릇에 넣고 숟가락으로 곱게 으깹니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "계란을 풀어 두부와 잘 섞고 우유를 넣어 한번 더 섞습니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "대파를 잘게 썰어 넣습니다(선택)."
+      },
+      {
+        "order": 4,
+        "instructionKo": "내열용기에 담아 전자레인지에 5분 돌린 뒤 한 번 저어 1~2분 더 익힙니다."
+      }
+    ],
+    "prepTimeMin": 10,
+    "servings": "1회분",
+    "allergenIngredientIds": [
+      "egg_whole",
+      "milk"
+    ],
+    "tipsKo": "원본 레시피의 새우젓·소금·참깨는 생략. 우유는 12개월 이후에만 사용하세요.",
+    "sourceKo": "만개의레시피 #6807320 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_130",
+    "nameKo": "참치쑥전(무염)",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "tuna_canned",
+        "amount": "50g(기름 뺀 후)"
+      },
+      {
+        "ingredientId": "mugwort",
+        "amount": "20g"
+      },
+      {
+        "ingredientId": "egg_whole",
+        "amount": "1개"
+      },
+      {
+        "ingredientId": "olive_oil",
+        "amount": "약간"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "쑥은 깨끗이 씻어 끓는 물에 살짝 데친 뒤 잘게 썹니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "참치캔은 체에 받쳐 기름과 소금기를 빼고 더운물로 한 번 헹굽니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "쑥·참치·계란을 잘 섞습니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "팬에 올리브유를 두르고 한 숟가락씩 떠서 동그랗게 부쳐냅니다."
+      }
+    ],
+    "prepTimeMin": 15,
+    "servings": "2회분",
+    "allergenIngredientIds": [
+      "egg_whole"
+    ],
+    "tipsKo": "참치캔은 저염 제품을 사용하고 헹궈서 짠맛을 낮춥니다.",
+    "sourceKo": "만개의레시피 #6685337 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_131",
+    "nameKo": "잔멸치 채소전",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "anchovy_dried",
+        "amount": "15g"
+      },
+      {
+        "ingredientId": "perilla_leaf",
+        "amount": "3장"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": "20g"
+      },
+      {
+        "ingredientId": "mushroom_oyster",
+        "amount": "20g"
+      },
+      {
+        "ingredientId": "pancake_flour",
+        "amount": "1/2컵"
+      },
+      {
+        "ingredientId": "egg_whole",
+        "amount": "1개"
+      },
+      {
+        "ingredientId": "olive_oil",
+        "amount": "약간"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "잔멸치는 물에 살짝 헹궈 짠기를 빼고 마른 팬에 약불로 볶아 비린내를 날립니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "깻잎·당근·느타리버섯을 곱게 채썹니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "부침가루 1/2컵에 물 1/4컵, 계란을 섞어 묽지 않은 반죽을 만듭니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "손질한 재료를 모두 넣고 살살 섞습니다."
+      },
+      {
+        "order": 5,
+        "instructionKo": "팬에 기름을 두르고 한 숟가락씩 떠서 앞뒤로 노릇하게 부칩니다."
+      }
+    ],
+    "prepTimeMin": 20,
+    "servings": "2~3회분",
+    "allergenIngredientIds": [
+      "pancake_flour",
+      "egg_whole"
+    ],
+    "tipsKo": "원본의 맛술은 생략. 멸치는 반드시 헹궈서 사용합니다.",
+    "sourceKo": "만개의레시피 #6790135 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_132",
+    "nameKo": "시금치 프리타타(무염)",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "spinach",
+        "amount": "40g(1줌)"
+      },
+      {
+        "ingredientId": "egg_whole",
+        "amount": "2개"
+      },
+      {
+        "ingredientId": "milk",
+        "amount": "60ml"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": "1/4개"
+      },
+      {
+        "ingredientId": "cheese_natural",
+        "amount": "1/2장",
+        "optional": true
+      },
+      {
+        "ingredientId": "olive_oil",
+        "amount": "약간"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "계란을 풀고 우유를 섞어둡니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "양파는 얇게 채썰고 시금치는 큼직하게 썹니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "팬에 기름을 살짝 두르고 양파를 볶다가 시금치를 넣어 숨만 죽입니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "계란 우유물을 붓고 약불에서 뚜껑 덮어 7~8분간 익힙니다. 무염 치즈는 마무리에 얹어 녹입니다."
+      }
+    ],
+    "prepTimeMin": 15,
+    "servings": "2회분",
+    "allergenIngredientIds": [
+      "egg_whole",
+      "milk",
+      "cheese_natural"
+    ],
+    "tipsKo": "원본의 베이컨·소금·후추는 모두 생략. 치즈는 무염 자연치즈로.",
+    "sourceKo": "만개의레시피 #6764394 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_133",
+    "nameKo": "두부 채소 스테이크",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "tofu",
+        "amount": "1모(약 300g)"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": "1/4개(다진 것)"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": "20g(다진 것)"
+      },
+      {
+        "ingredientId": "bell_pepper",
+        "amount": "20g(다진 것)"
+      },
+      {
+        "ingredientId": "green_onion",
+        "amount": "약간(다진 것)"
+      },
+      {
+        "ingredientId": "potato_starch",
+        "amount": "2큰술"
+      },
+      {
+        "ingredientId": "olive_oil",
+        "amount": "약간"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "채소를 모두 잘게 다집니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "두부는 으깨어 면보로 물기를 꼭 짭니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "두부·다진 채소·전분을 한데 섞어 반죽합니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "먹기 좋은 크기의 네모로 모양을 잡아 팬에 기름을 두르고 약불로 앞뒤를 노릇하게 굽습니다."
+      }
+    ],
+    "prepTimeMin": 20,
+    "servings": "2~3회분",
+    "allergenIngredientIds": [],
+    "tipsKo": "원본의 돈가스소스는 생략. 그대로 또는 무염 토마토소스를 곁들입니다.",
+    "sourceKo": "만개의레시피 #5782661 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_134",
+    "nameKo": "피없는 미니 만두",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "pork_minced",
+        "amount": "100g"
+      },
+      {
+        "ingredientId": "tofu",
+        "amount": "50g"
+      },
+      {
+        "ingredientId": "bean_sprout",
+        "amount": "50g(데친 후 다진 것)"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": "1/4개(다진 것)"
+      },
+      {
+        "ingredientId": "green_onion",
+        "amount": "약간"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": "약간"
+      },
+      {
+        "ingredientId": "potato_starch",
+        "amount": "2~3큰술"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "숙주는 끓는 물에 살짝 데쳐 찬물에 헹궈 잘게 다지고 물기를 꼭 짭니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "두부도 으깨어 물기를 짭니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "돼지고기·두부·다진 채소·다진 마늘을 한데 넣고 5분 이상 치댑니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "아이 한입 크기로 동그랗게 빚은 뒤 전분가루에 두 번 굴려 묻힙니다."
+      },
+      {
+        "order": 5,
+        "instructionKo": "끓는 물에 넣어 만두가 떠오를 때까지 익혀 건집니다."
+      }
+    ],
+    "prepTimeMin": 30,
+    "servings": "4~5회분",
+    "allergenIngredientIds": [],
+    "tipsKo": "원본의 김치는 생략. 첫 시도 시 돼지고기는 닭가슴살로 대체 가능.",
+    "sourceKo": "만개의레시피 #6678703 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "late_131",
+    "nameKo": "대구살 채소죽",
+    "stage": "late",
+    "subType": "죽",
+    "ingredients": [
+      {
+        "ingredientId": "rice",
+        "amount": "40g(불린 것)"
+      },
+      {
+        "ingredientId": "cod",
+        "amount": "40g"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": "15g"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": "15g"
+      },
+      {
+        "ingredientId": "zucchini",
+        "amount": "15g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "대구살은 끓는 물에 데쳐 가시를 발라내고 잘게 으깹니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "당근·양파·애호박은 곱게 다집니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "냄비에 불린 쌀과 물 200ml를 넣고 끓이다 채소를 추가합니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "쌀이 푹 퍼지면 대구살을 넣고 한소끔 더 끓여 마무리합니다."
+      }
+    ],
+    "prepTimeMin": 25,
+    "servings": "1~2회분",
+    "ricePortionRatio": "5배죽",
+    "allergenIngredientIds": [],
+    "tipsKo": "원본은 묵은지를 사용했으나 후기 이유식에는 김치를 빼고 채소만으로 끓입니다.",
+    "sourceKo": "만개의레시피 #6803780 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_135",
+    "nameKo": "대구 채소 크림 그라탕",
+    "stage": "finishing",
+    "subType": "무른밥",
+    "ingredients": [
+      {
+        "ingredientId": "cod",
+        "amount": "60g"
+      },
+      {
+        "ingredientId": "rice",
+        "amount": "60g(밥)"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": "15g"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": "15g"
+      },
+      {
+        "ingredientId": "broccoli",
+        "amount": "15g"
+      },
+      {
+        "ingredientId": "bell_pepper",
+        "amount": "10g"
+      },
+      {
+        "ingredientId": "milk",
+        "amount": "80ml"
+      },
+      {
+        "ingredientId": "cheese_natural",
+        "amount": "1장"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "대구는 찜기에 쪄서 살을 발라 으깹니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "채소는 모두 곱게 다집니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "냄비에 무염 채소육수(또는 물)를 자작하게 붓고 다진 채소를 익힙니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "밥을 넣어 골고루 섞은 뒤 우유를 부어 한소끔 끓입니다."
+      },
+      {
+        "order": 5,
+        "instructionKo": "대구살을 넣고 마지막에 무염 자연치즈를 올려 녹여 마무리합니다."
+      }
+    ],
+    "prepTimeMin": 25,
+    "servings": "1~2회분",
+    "allergenIngredientIds": [
+      "milk",
+      "cheese_natural"
+    ],
+    "tipsKo": "12개월 미만은 우유 대신 분유/모유로 대체하세요.",
+    "sourceKo": "만개의레시피 #6827423 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_136",
+    "nameKo": "생선완자 무탕",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "cod",
+        "amount": "100g"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": "15g(다진 것)"
+      },
+      {
+        "ingredientId": "zucchini",
+        "amount": "15g(다진 것)"
+      },
+      {
+        "ingredientId": "radish",
+        "amount": "100g"
+      },
+      {
+        "ingredientId": "egg_whole",
+        "amount": "1/2개(흰자)"
+      },
+      {
+        "ingredientId": "potato_starch",
+        "amount": "1작은술"
+      },
+      {
+        "ingredientId": "kelp",
+        "amount": "1~2장"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "대구살을 믹서로 곱게 갈아 다진 당근·애호박·계란흰자·전분과 섞습니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "엄지 손톱 크기로 완자를 빚습니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "물에 다시마를 넣고 끓여 육수를 낸 뒤 다시마는 건집니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "한입 크기 무를 넣고 투명해질 때까지 약불로 익힙니다."
+      },
+      {
+        "order": 5,
+        "instructionKo": "완자를 넣고 떠오를 때까지 끓이며 거품을 걷어냅니다."
+      }
+    ],
+    "prepTimeMin": 30,
+    "servings": "2회분",
+    "allergenIngredientIds": [
+      "egg_whole"
+    ],
+    "tipsKo": "국물에 따로 간하지 않습니다(다시마 육수만으로).",
+    "sourceKo": "만개의레시피 #6180014 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_137",
+    "nameKo": "새우 두부 채소 완자",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "shrimp",
+        "amount": "80g"
+      },
+      {
+        "ingredientId": "tofu",
+        "amount": "50g"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": "15g(다진 것)"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": "15g(다진 것)"
+      },
+      {
+        "ingredientId": "broccoli",
+        "amount": "15g(다진 것)"
+      },
+      {
+        "ingredientId": "potato_starch",
+        "amount": "1큰술"
+      },
+      {
+        "ingredientId": "egg_whole",
+        "amount": "1/2개"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "새우는 곱게 다지고 두부는 으깨어 물기를 짭니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "다진 채소·새우·두부·전분을 잘 섞어 동그랗게 빚습니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "풀어둔 계란물에 굴려 옷을 입힙니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "찜기 종이호일 위에 올려 7~8분간 쪄냅니다."
+      }
+    ],
+    "prepTimeMin": 25,
+    "servings": "2~3회분",
+    "allergenIngredientIds": [
+      "shrimp",
+      "egg_whole"
+    ],
+    "tipsKo": "갑각류 알레르기 확인 후 제공하세요.",
+    "sourceKo": "만개의레시피 #6832714 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "late_132",
+    "nameKo": "고구마 근대 진밥",
+    "stage": "late",
+    "subType": "진밥",
+    "ingredients": [
+      {
+        "ingredientId": "rice",
+        "amount": "50g(진밥)"
+      },
+      {
+        "ingredientId": "chard",
+        "amount": "15g(잎 부분만)"
+      },
+      {
+        "ingredientId": "sweet_potato",
+        "amount": "30g"
+      },
+      {
+        "ingredientId": "cauliflower",
+        "amount": "15g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "근대는 잎만 채썰어 끓는 물에 살짝 데칩니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "데친 근대·고구마·콜리플라워는 잘게 다집니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "냄비에 진밥과 물(또는 무염 채소 육수) 100ml를 넣고 다진 재료를 추가합니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "센불에서 끓이다 약불로 줄여 밥알이 푹 퍼질 때까지 저어가며 익힙니다."
+      }
+    ],
+    "prepTimeMin": 20,
+    "servings": "1~2회분",
+    "ricePortionRatio": "진밥",
+    "allergenIngredientIds": [],
+    "tipsKo": "콜리플라워가 없으면 브로콜리로 대체 가능.",
+    "sourceKo": "만개의레시피 #6671584 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_138",
+    "nameKo": "영양 두부찜",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "tofu",
+        "amount": "1팩(약 200g)"
+      },
+      {
+        "ingredientId": "egg_whole",
+        "amount": "1개"
+      },
+      {
+        "ingredientId": "beef_minced",
+        "amount": "40g"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": "15g"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": "15g"
+      },
+      {
+        "ingredientId": "spinach",
+        "amount": "15g"
+      },
+      {
+        "ingredientId": "mushroom_shiitake",
+        "amount": "15g"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "두부는 으깨어 물기를 꼭 짭니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "당근·양파·시금치·표고버섯을 곱게 다집니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "두부·계란·다진 고기·다진 채소를 한데 넣고 잘 섞습니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "내열 그릇에 공기가 차지 않도록 꾹 눌러 담습니다."
+      },
+      {
+        "order": 5,
+        "instructionKo": "찜기에서 15~20분간 쪄 젓가락을 찔러 맑은 물이 나오면 완성입니다."
+      }
+    ],
+    "prepTimeMin": 30,
+    "servings": "3~4회분",
+    "allergenIngredientIds": [
+      "egg_whole"
+    ],
+    "tipsKo": "원본의 소금·참기름은 생략. 다진 고기는 닭가슴살로 대체 가능.",
+    "sourceKo": "만개의레시피 #6707756 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_139",
+    "nameKo": "오징어 채소 완자(오븐구이)",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "squid",
+        "amount": "1마리(약 150g)"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": "15g"
+      },
+      {
+        "ingredientId": "broccoli",
+        "amount": "15g"
+      },
+      {
+        "ingredientId": "mushroom_king_oyster",
+        "amount": "15g"
+      },
+      {
+        "ingredientId": "bell_pepper",
+        "amount": "15g"
+      },
+      {
+        "ingredientId": "green_onion",
+        "amount": "약간"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": "약간"
+      },
+      {
+        "ingredientId": "olive_oil",
+        "amount": "약간"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "오징어는 껍질을 벗기고 적당히 썰어 믹서로 곱게 갑니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "당근·브로콜리·새송이·파프리카·쪽파를 잘게 다집니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "간 오징어에 다진 채소와 다진 마늘을 넣어 섞습니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "종이호일에 한 숟가락씩 떼어 올리고 윗면에 올리브유를 살짝 바릅니다."
+      },
+      {
+        "order": 5,
+        "instructionKo": "180℃로 예열한 오븐에서 15분간 굽습니다."
+      }
+    ],
+    "prepTimeMin": 25,
+    "servings": "3~4회분",
+    "allergenIngredientIds": [
+      "squid"
+    ],
+    "tipsKo": "연체류 알레르기 확인 후 제공. 오븐이 없으면 팬에 약불로 뚜껑 덮어 익힙니다.",
+    "sourceKo": "만개의레시피 #6829294 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_140",
+    "nameKo": "톳밥",
+    "stage": "finishing",
+    "subType": "진밥",
+    "ingredients": [
+      {
+        "ingredientId": "hijiki",
+        "amount": "20g"
+      },
+      {
+        "ingredientId": "rice",
+        "amount": "1컵"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "톳은 식초를 약간 푼 물에 30분 담가 비린내를 뺀 뒤 찬물에 헹굽니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "먹기 좋은 크기로 썹니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "쌀을 씻어 밥솥에 넣고 평소 분량의 물을 부은 뒤 톳을 위에 얹습니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "백미 코스로 취사합니다."
+      }
+    ],
+    "prepTimeMin": 40,
+    "servings": "3~4회분",
+    "ricePortionRatio": "진밥",
+    "allergenIngredientIds": [],
+    "tipsKo": "톳은 잘 헹궈 짠맛을 빼고 사용합니다. 처음에는 양을 적게.",
+    "sourceKo": "만개의레시피 #6678706 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_141",
+    "nameKo": "무 표고버섯 보리밥",
+    "stage": "finishing",
+    "subType": "진밥",
+    "ingredients": [
+      {
+        "ingredientId": "radish",
+        "amount": "1/2토막(약 200g)"
+      },
+      {
+        "ingredientId": "mushroom_shiitake",
+        "amount": "4~5개"
+      },
+      {
+        "ingredientId": "barley",
+        "amount": "1컵"
+      },
+      {
+        "ingredientId": "rice",
+        "amount": "1/2컵"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "표고버섯은 물에 불려 적당한 크기로 썹니다(불린 물은 따로 둠)."
+      },
+      {
+        "order": 2,
+        "instructionKo": "무는 껍질을 벗겨 채썹니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "쌀과 보리를 씻어 밥솥에 담고 표고 우린 물을 평소 분량의 90%만큼 붓습니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "무와 표고를 위에 올려 백미 코스로 취사합니다."
+      }
+    ],
+    "prepTimeMin": 50,
+    "servings": "3~4회분",
+    "ricePortionRatio": "진밥",
+    "allergenIngredientIds": [],
+    "tipsKo": "간장 없이 부드러운 무의 단맛으로 충분합니다.",
+    "sourceKo": "만개의레시피 #6833582 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_142",
+    "nameKo": "수수 찹쌀 영양밥",
+    "stage": "finishing",
+    "subType": "진밥",
+    "ingredients": [
+      {
+        "ingredientId": "sweet_rice",
+        "amount": "1/2컵"
+      },
+      {
+        "ingredientId": "sorghum",
+        "amount": "1/2컵"
+      },
+      {
+        "ingredientId": "jujube",
+        "amount": "3~4알(다진 것)"
+      },
+      {
+        "ingredientId": "chestnut",
+        "amount": "3~4알(다진 것)"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "쌀·찹쌀·수수쌀을 씻어 1시간 물에 불립니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "대추는 씨를 발라 잘게 다지고, 밤은 한 알을 4~6등분합니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "밥솥에 불린 쌀류와 다진 대추·밤을 넣고 평소 분량의 물을 붓습니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "백미 코스로 취사하고 충분히 뜸을 들입니다."
+      }
+    ],
+    "prepTimeMin": 80,
+    "servings": "3~4회분",
+    "ricePortionRatio": "진밥",
+    "allergenIngredientIds": [],
+    "tipsKo": "원본의 은행은 질식 위험이 있어 12개월 미만 권장하지 않으므로 생략.",
+    "sourceKo": "만개의레시피 #5091358 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_143",
+    "nameKo": "멸치 채소 주먹밥",
+    "stage": "finishing",
+    "subType": "핑거푸드",
+    "ingredients": [
+      {
+        "ingredientId": "rice",
+        "amount": "3공기(밥)"
+      },
+      {
+        "ingredientId": "zucchini",
+        "amount": "30g"
+      },
+      {
+        "ingredientId": "carrot",
+        "amount": "30g"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": "30g"
+      },
+      {
+        "ingredientId": "anchovy_dried",
+        "amount": "20g(헹군 것)"
+      },
+      {
+        "ingredientId": "dried_laver",
+        "amount": "약간"
+      },
+      {
+        "ingredientId": "olive_oil",
+        "amount": "약간"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "잔멸치는 물에 살짝 헹궈 짠맛을 빼고 마른 팬에 볶아 비린내를 날립니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "애호박·당근·양파를 곱게 다집니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "팬에 올리브유를 두르고 다진 채소를 볶다가 멸치를 넣어 한 번 더 볶습니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "밥에 볶은 재료와 김가루를 넣고 잘 섞습니다."
+      },
+      {
+        "order": 5,
+        "instructionKo": "한입 크기로 동그랗게 뭉쳐 마무리합니다."
+      }
+    ],
+    "prepTimeMin": 20,
+    "servings": "4~5회분",
+    "allergenIngredientIds": [],
+    "tipsKo": "원본의 소금·통깨·참기름은 생략하거나 마무리 시 참기름 1~2방울만.",
+    "sourceKo": "만개의레시피 #6829057 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_144",
+    "nameKo": "소고기 버섯 리조또",
+    "stage": "finishing",
+    "subType": "무른밥",
+    "ingredients": [
+      {
+        "ingredientId": "beef_minced",
+        "amount": "50g"
+      },
+      {
+        "ingredientId": "rice",
+        "amount": "1공기(밥)"
+      },
+      {
+        "ingredientId": "mushroom_shiitake",
+        "amount": "15g"
+      },
+      {
+        "ingredientId": "mushroom_button",
+        "amount": "15g"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": "20g"
+      },
+      {
+        "ingredientId": "broccoli",
+        "amount": "20g"
+      },
+      {
+        "ingredientId": "milk",
+        "amount": "100ml"
+      },
+      {
+        "ingredientId": "cheese_natural",
+        "amount": "1.5장"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "소고기는 물에 30분 담가 핏물을 빼고 잘게 다집니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "버섯·양파·브로콜리는 곱게 다집니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "팬에 물 3~4큰술을 넣고 소고기와 채소를 볶습니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "양파가 투명해지면 밥과 물 1/2컵을 넣고 한소끔 끓입니다."
+      },
+      {
+        "order": 5,
+        "instructionKo": "우유를 부어 약불로 졸이다 무염 자연치즈를 넣어 녹이며 저어 마무리합니다."
+      }
+    ],
+    "prepTimeMin": 25,
+    "servings": "2회분",
+    "allergenIngredientIds": [
+      "milk",
+      "cheese_natural"
+    ],
+    "tipsKo": "치즈는 무염 자연치즈를 사용하세요.",
+    "sourceKo": "만개의레시피 #6006820 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_145",
+    "nameKo": "브로콜리 멸치 두부전",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "tofu",
+        "amount": "1/2모(약 150g)"
+      },
+      {
+        "ingredientId": "broccoli",
+        "amount": "1큰술(다진 것)"
+      },
+      {
+        "ingredientId": "anchovy_dried",
+        "amount": "2/3큰술(헹궈 다진 것)"
+      },
+      {
+        "ingredientId": "egg_whole",
+        "amount": "1개"
+      },
+      {
+        "ingredientId": "olive_oil",
+        "amount": "약간"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "잔멸치는 물에 3~4번 헹궈 짠기를 빼고 마른 팬에 볶아 수분을 날린 뒤 곱게 빻습니다."
+      },
+      {
+        "order": 2,
+        "instructionKo": "두부는 도톰하게 썰어 키친타올로 물기를 제거합니다."
+      },
+      {
+        "order": 3,
+        "instructionKo": "브로콜리는 송이 부분만 잘게 다집니다."
+      },
+      {
+        "order": 4,
+        "instructionKo": "계란을 풀고 다진 브로콜리·멸치를 섞어 옷을 만듭니다."
+      },
+      {
+        "order": 5,
+        "instructionKo": "두부에 계란옷을 입혀 팬에 기름을 두르고 약불로 앞뒤를 노릇하게 굽습니다."
+      }
+    ],
+    "prepTimeMin": 15,
+    "servings": "2회분",
+    "allergenIngredientIds": [
+      "egg_whole"
+    ],
+    "tipsKo": "멸치는 꼭 헹궈 짠맛을 뺀 뒤 사용하세요.",
+    "sourceKo": "만개의레시피 #6194550 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_146",
+    "nameKo": "두부 계란부침(무염)",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "tofu",
+        "amount": "1/2모"
+      },
+      {
+        "ingredientId": "egg_whole",
+        "amount": "1개"
+      },
+      {
+        "ingredientId": "perilla_oil",
+        "amount": "1큰술"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "두부 1/2모를 물에 헹군 후 한입 크기로 썰어 주세요."
+      },
+      {
+        "order": 2,
+        "instructionKo": "키친타올에 두부를 올리고 2~3분간 두어 수분을 충분히 빼 주세요."
+      },
+      {
+        "order": 3,
+        "instructionKo": "작은 볼에 달걀을 깨어 노른자와 흰자가 완전히 섞이도록 풀어 주세요. (소금은 넣지 않습니다.)"
+      },
+      {
+        "order": 4,
+        "instructionKo": "물기 뺀 두부를 달걀물에 하나씩 굴려 골고루 묻혀 주세요."
+      },
+      {
+        "order": 5,
+        "instructionKo": "팬을 중약불로 예열하고 들기름을 두른 뒤 두부를 올려 한 면당 2~3분씩 노릇하게 구워 주세요."
+      }
+    ],
+    "prepTimeMin": 10,
+    "servings": "1인분",
+    "allergenIngredientIds": [
+      "egg_whole"
+    ],
+    "tipsKo": "원 레시피의 소금은 무염 처리. 짠맛 없이도 두부와 달걀의 고소함이 살아납니다.",
+    "sourceKo": "만개의레시피 #7070124 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_147",
+    "nameKo": "양파링 속 닭달걀구이(무염)",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "chicken_breast",
+        "amount": "50g"
+      },
+      {
+        "ingredientId": "egg_whole",
+        "amount": "3개"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": "2개(링 모양)"
+      },
+      {
+        "ingredientId": "olive_oil",
+        "amount": "약간"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "양파는 껍질을 벗겨 도톰한 링 모양으로 썰어 주세요."
+      },
+      {
+        "order": 2,
+        "instructionKo": "닭가슴살은 잘게 다져 주세요."
+      },
+      {
+        "order": 3,
+        "instructionKo": "볼에 달걀을 풀고 다진 닭가슴살을 넣어 잘 섞어 주세요. (소금은 넣지 않습니다.)"
+      },
+      {
+        "order": 4,
+        "instructionKo": "기름 두른 팬에 양파링을 올리고 한 숟가락씩 달걀물을 부어 채워 주세요."
+      },
+      {
+        "order": 5,
+        "instructionKo": "뒤집개 두 개로 살살 뒤집어 속까지 충분히 익혀 주세요."
+      }
+    ],
+    "prepTimeMin": 15,
+    "servings": "2~3인분",
+    "allergenIngredientIds": [
+      "egg_whole"
+    ],
+    "tipsKo": "원 레시피의 소금은 무염 처리. 양파 단맛으로 충분히 맛이 납니다. 자투리 채소는 생략했어요.",
+    "sourceKo": "만개의레시피 #6918383 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_148",
+    "nameKo": "시금치 달걀볶음(무염)",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "spinach",
+        "amount": "1/2단"
+      },
+      {
+        "ingredientId": "egg_whole",
+        "amount": "3개"
+      },
+      {
+        "ingredientId": "green_onion",
+        "amount": "1줌(다져서)"
+      },
+      {
+        "ingredientId": "olive_oil",
+        "amount": "2~3큰술"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "시금치는 깨끗이 씻어 먹기 좋은 길이로 잘라 주세요."
+      },
+      {
+        "order": 2,
+        "instructionKo": "달걀은 잘 풀어 둡니다. (소금은 넣지 않습니다.)"
+      },
+      {
+        "order": 3,
+        "instructionKo": "팬에 기름을 살짝 두르고 약불에서 달걀물을 저으며 스크램블을 만들어 접시에 덜어 주세요."
+      },
+      {
+        "order": 4,
+        "instructionKo": "같은 팬에 기름 1큰술과 다진 파를 넣어 약불에서 파기름을 내 주세요."
+      },
+      {
+        "order": 5,
+        "instructionKo": "파향이 오르면 시금치를 넣고 숨이 죽을 때까지 볶고, 스크램블을 다시 넣어 골고루 섞어 주세요."
+      }
+    ],
+    "prepTimeMin": 10,
+    "servings": "2인분",
+    "allergenIngredientIds": [
+      "egg_whole"
+    ],
+    "tipsKo": "원 레시피의 소금(2~3꼬집)은 무염 처리. 파기름과 달걀 풍미로 간을 대신했습니다.",
+    "sourceKo": "만개의레시피 #6892209 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_149",
+    "nameKo": "감자채 볶음(무염)",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "potato",
+        "amount": "2개"
+      },
+      {
+        "ingredientId": "olive_oil",
+        "amount": "2큰술"
+      },
+      {
+        "ingredientId": "sesame_seed",
+        "amount": "약간"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "감자는 0.3cm 두께로 채 썰어 주세요."
+      },
+      {
+        "order": 2,
+        "instructionKo": "채 썬 감자를 물에 5분간 담가 전분을 빼고, 채반에 올려 물기를 충분히 털어 주세요."
+      },
+      {
+        "order": 3,
+        "instructionKo": "달군 팬에 기름을 두르고 중불에서 감자가 투명해질 때까지 저어가며 볶아 주세요."
+      },
+      {
+        "order": 4,
+        "instructionKo": "불을 끄고 마지막에 참깨를 뿌려 마무리합니다."
+      }
+    ],
+    "prepTimeMin": 10,
+    "servings": "2인분",
+    "allergenIngredientIds": [],
+    "tipsKo": "원 레시피의 소금/깨소금은 모두 빼고 참깨만 넣어 무염 처리. 감자 본연의 단맛이 살아납니다.",
+    "sourceKo": "만개의레시피 #7074215 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_150",
+    "nameKo": "애호박 느타리버섯 볶음(무염)",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "mushroom_oyster",
+        "amount": "1줌"
+      },
+      {
+        "ingredientId": "zucchini",
+        "amount": "1/4개"
+      },
+      {
+        "ingredientId": "onion",
+        "amount": "1/4개"
+      },
+      {
+        "ingredientId": "sesame_oil",
+        "amount": "1큰술"
+      },
+      {
+        "ingredientId": "sesame_seed",
+        "amount": "1/2큰술"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "느타리버섯은 깨끗이 씻어 반으로 자른 뒤 손으로 잘게 찢어 주세요."
+      },
+      {
+        "order": 2,
+        "instructionKo": "양파와 애호박은 채 썰어 주세요."
+      },
+      {
+        "order": 3,
+        "instructionKo": "기름 두른 팬에 양파와 애호박을 먼저 볶다가 투명해지면 느타리버섯을 넣어 주세요."
+      },
+      {
+        "order": 4,
+        "instructionKo": "버섯 숨이 죽으면 참기름과 참깨를 넣고 골고루 섞어 마무리합니다."
+      }
+    ],
+    "prepTimeMin": 10,
+    "servings": "2인분",
+    "allergenIngredientIds": [],
+    "tipsKo": "원 레시피의 깨소금은 참깨로 대체해 무염 처리.",
+    "sourceKo": "만개의레시피 #6978052 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_151",
+    "nameKo": "숙주 무침(무염)",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "bean_sprout",
+        "amount": "350g"
+      },
+      {
+        "ingredientId": "green_onion",
+        "amount": "1/2개"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": "1작은술(다진 것)"
+      },
+      {
+        "ingredientId": "sesame_oil",
+        "amount": "1작은술"
+      },
+      {
+        "ingredientId": "sesame_seed",
+        "amount": "1작은술"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "숙주는 흐르는 물에 가볍게 헹구고 체에 받쳐 물기를 빼 주세요."
+      },
+      {
+        "order": 2,
+        "instructionKo": "대파는 잘게 송송 썰어 주세요."
+      },
+      {
+        "order": 3,
+        "instructionKo": "냄비에 물을 끓여 데치되, 30초만 빠르게 데쳐 아삭함을 살리고 찬물에 헹궈 물기를 빼 주세요. (데칠 때 소금은 넣지 않습니다.)"
+      },
+      {
+        "order": 4,
+        "instructionKo": "볼에 데친 숙주, 다진 파, 다진 마늘, 참기름, 참깨를 넣고 손으로 살살 무쳐 주세요."
+      }
+    ],
+    "prepTimeMin": 10,
+    "servings": "3~4인분",
+    "allergenIngredientIds": [],
+    "tipsKo": "원 레시피의 국간장은 빼고 참기름 향과 마늘로 간을 대신했습니다. 데칠 때 소금도 생략.",
+    "sourceKo": "만개의레시피 #7073764 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_152",
+    "nameKo": "애호박 새우 볶음(무염)",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "zucchini",
+        "amount": "1개"
+      },
+      {
+        "ingredientId": "shrimp",
+        "amount": "12마리(살)"
+      },
+      {
+        "ingredientId": "sesame_oil",
+        "amount": "2큰술"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": "1큰술(다진 것)"
+      },
+      {
+        "ingredientId": "sesame_seed",
+        "amount": "약간"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "애호박은 반달 또는 길게 사등분해 두툼하게 썰어 주세요."
+      },
+      {
+        "order": 2,
+        "instructionKo": "새우살은 꼬리를 떼고 깨끗이 씻어 주세요."
+      },
+      {
+        "order": 3,
+        "instructionKo": "팬에 참기름을 두르고 약불에서 다진 마늘을 타지 않게 볶아 마늘기름을 만들어 주세요."
+      },
+      {
+        "order": 4,
+        "instructionKo": "새우살을 먼저 넣어 겉이 빨갛게 익을 때까지 볶다가 애호박을 넣어 함께 볶아 주세요."
+      },
+      {
+        "order": 5,
+        "instructionKo": "뚜껑을 덮고 약불에서 1분 뜸들인 뒤 참깨를 뿌려 마무리합니다."
+      }
+    ],
+    "prepTimeMin": 10,
+    "servings": "2인분",
+    "allergenIngredientIds": [
+      "shrimp"
+    ],
+    "tipsKo": "원 레시피의 국간장은 빼고 참기름과 마늘로 풍미를 살렸습니다.",
+    "sourceKo": "만개의레시피 #7006608 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_153",
+    "nameKo": "무 볶음(무염)",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "radish",
+        "amount": "1/2쪽"
+      },
+      {
+        "ingredientId": "green_onion",
+        "amount": "약간"
+      },
+      {
+        "ingredientId": "perilla_oil",
+        "amount": "3큰술"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": "1큰술(다진 것)"
+      },
+      {
+        "ingredientId": "sesame_seed",
+        "amount": "1큰술"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "무는 얇게 채 썰고, 대파는 채 썰어 주세요."
+      },
+      {
+        "order": 2,
+        "instructionKo": "팬에 들기름을 두르고 다진 마늘과 대파를 넣어 약불에 볶아 파향을 내 주세요."
+      },
+      {
+        "order": 3,
+        "instructionKo": "중불로 올려 채 썬 무를 넣고 충분히 볶아 주세요. (맛소금은 넣지 않습니다.)"
+      },
+      {
+        "order": 4,
+        "instructionKo": "무에서 물이 나오면 약불로 줄이고 뚜껑을 덮어 1분 정도 익혀 주세요."
+      },
+      {
+        "order": 5,
+        "instructionKo": "뚜껑을 열고 참깨를 뿌려 골고루 섞어 마무리합니다."
+      }
+    ],
+    "prepTimeMin": 15,
+    "servings": "3인분",
+    "allergenIngredientIds": [],
+    "tipsKo": "원 레시피의 맛소금은 무염 처리. 들기름과 마늘 풍미로 간을 대신했습니다.",
+    "sourceKo": "만개의레시피 #6952025 (양념은 이유식용으로 무염/무당으로 변환됨)"
+  },
+  {
+    "id": "finishing_154",
+    "nameKo": "깻잎 들깨볶음(무염)",
+    "stage": "finishing",
+    "subType": "반찬",
+    "ingredients": [
+      {
+        "ingredientId": "perilla_leaf",
+        "amount": "1줌(데친 것)"
+      },
+      {
+        "ingredientId": "green_onion",
+        "amount": "1/4대(흰 부분)"
+      },
+      {
+        "ingredientId": "garlic",
+        "amount": "1큰술(다진 것)"
+      },
+      {
+        "ingredientId": "sesame_oil",
+        "amount": "2큰술"
+      },
+      {
+        "ingredientId": "perilla_powder",
+        "amount": "2큰술"
+      },
+      {
+        "ingredientId": "sesame_seed",
+        "amount": "약간"
+      },
+      {
+        "ingredientId": "olive_oil",
+        "amount": "1큰술"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instructionKo": "깻잎은 깨끗이 씻은 뒤 끓는 물에 살짝 데쳐 찬물에 헹구고 물기를 꼭 짜 주세요."
+      },
+      {
+        "order": 2,
+        "instructionKo": "깻잎이 뭉치지 않게 풀어 다진 마늘과 참기름 1큰술을 넣어 살살 무쳐 주세요. (국간장은 넣지 않습니다.)"
+      },
+      {
+        "order": 3,
+        "instructionKo": "팬에 식용유를 살짝 두르고 채 썬 대파 흰 부분을 약불에서 살짝 볶아 주세요."
+      },
+      {
+        "order": 4,
+        "instructionKo": "양념해 둔 깻잎을 넣고 참기름 1큰술을 더해 약불에서 볶아 주세요."
+      },
+      {
+        "order": 5,
+        "instructionKo": "들깨가루 2큰술과 참깨를 뿌리고 한 번 더 골고루 볶아 마무리합니다."
+      }
+    ],
+    "prepTimeMin": 15,
+    "servings": "2인분",
+    "allergenIngredientIds": [],
+    "tipsKo": "원 레시피의 국간장은 빼고 들깨가루와 참기름으로 고소함을 강화했습니다.",
+    "sourceKo": "만개의레시피 #6875304 (양념은 이유식용으로 무염/무당으로 변환됨)"
   }
 ]

@@ -1,75 +1,660 @@
 [
-  { "id": "rice", "nameKo": "쌀", "category": "grain", "isCommonAllergen": false, "introducedFromStage": "early" },
-  { "id": "oatmeal", "nameKo": "오트밀", "category": "grain", "isCommonAllergen": false, "introducedFromStage": "early" },
-  { "id": "barley", "nameKo": "보리", "category": "grain", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "millet", "nameKo": "기장", "category": "grain", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "sweet_potato", "nameKo": "고구마", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "early" },
-  { "id": "pumpkin", "nameKo": "단호박", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "early" },
-  { "id": "carrot", "nameKo": "당근", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "early" },
-  { "id": "zucchini", "nameKo": "애호박", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "early" },
-  { "id": "potato", "nameKo": "감자", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "early" },
-  { "id": "broccoli", "nameKo": "브로콜리", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "early" },
-  { "id": "spinach", "nameKo": "시금치", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "cabbage", "nameKo": "양배추", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "onion", "nameKo": "양파", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "radish", "nameKo": "무", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "cucumber", "nameKo": "오이", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "tomato", "nameKo": "토마토", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "corn", "nameKo": "옥수수", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "eggplant", "nameKo": "가지", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "mushroom_shiitake", "nameKo": "표고버섯", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "mushroom_king_oyster", "nameKo": "새송이버섯", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "green_onion", "nameKo": "파", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "garlic", "nameKo": "마늘", "category": "seasoning", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "seaweed_miyeok", "nameKo": "미역", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "dried_laver", "nameKo": "김(무염)", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "apple", "nameKo": "사과", "category": "fruit", "isCommonAllergen": false, "introducedFromStage": "early" },
-  { "id": "pear", "nameKo": "배", "category": "fruit", "isCommonAllergen": false, "introducedFromStage": "early" },
-  { "id": "banana", "nameKo": "바나나", "category": "fruit", "isCommonAllergen": false, "introducedFromStage": "early" },
-  { "id": "watermelon", "nameKo": "수박", "category": "fruit", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "melon", "nameKo": "참외", "category": "fruit", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "peach", "nameKo": "복숭아", "category": "fruit", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "blueberry", "nameKo": "블루베리", "category": "fruit", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "strawberry", "nameKo": "딸기", "category": "fruit", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "grape", "nameKo": "포도", "category": "fruit", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "mango", "nameKo": "망고", "category": "fruit", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "beef_minced", "nameKo": "소고기 다짐육", "category": "protein", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "beef_sirloin", "nameKo": "소고기 안심", "category": "protein", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "chicken_breast", "nameKo": "닭가슴살", "category": "protein", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "chicken_tender", "nameKo": "닭안심", "category": "protein", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "pork_loin", "nameKo": "돼지고기 안심", "category": "protein", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "cod", "nameKo": "대구", "category": "protein", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "pollack", "nameKo": "명태(동태)", "category": "protein", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "salmon", "nameKo": "연어", "category": "protein", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "anchovy_dried", "nameKo": "멸치(국물용)", "category": "protein", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "tofu", "nameKo": "두부", "category": "protein", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "egg_yolk", "nameKo": "달걀 노른자", "category": "protein", "isCommonAllergen": true, "introducedFromStage": "middle" },
-  { "id": "egg_whole", "nameKo": "달걀 전란", "category": "protein", "isCommonAllergen": true, "introducedFromStage": "late" },
-  { "id": "black_bean", "nameKo": "검은콩", "category": "protein", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "lentil", "nameKo": "렌틸콩", "category": "protein", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "breast_milk", "nameKo": "모유", "category": "dairy", "isCommonAllergen": false, "introducedFromStage": "early" },
-  { "id": "formula", "nameKo": "분유", "category": "dairy", "isCommonAllergen": false, "introducedFromStage": "early" },
-  { "id": "plain_yogurt", "nameKo": "플레인 요거트", "category": "dairy", "isCommonAllergen": true, "introducedFromStage": "middle" },
-  { "id": "cheese_natural", "nameKo": "자연치즈(무염)", "category": "dairy", "isCommonAllergen": true, "introducedFromStage": "late" },
-  { "id": "butter_unsalted", "nameKo": "무염버터", "category": "dairy", "isCommonAllergen": true, "introducedFromStage": "late" },
-  { "id": "olive_oil", "nameKo": "올리브유", "category": "seasoning", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "sesame_oil", "nameKo": "참기름(소량)", "category": "seasoning", "isCommonAllergen": false, "introducedFromStage": "finishing" },
-  { "id": "kelp", "nameKo": "다시마", "category": "seasoning", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "dried_shiitake_powder", "nameKo": "표고버섯 가루", "category": "seasoning", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "perilla_leaf", "nameKo": "깻잎", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "crown_daisy", "nameKo": "쑥갓", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "bok_choy", "nameKo": "청경채", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "lettuce", "nameKo": "상추", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "asparagus", "nameKo": "아스파라거스", "category": "vegetable", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "avocado", "nameKo": "아보카도", "category": "fruit", "isCommonAllergen": false, "introducedFromStage": "middle" },
-  { "id": "kiwi", "nameKo": "키위", "category": "fruit", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "pineapple", "nameKo": "파인애플", "category": "fruit", "isCommonAllergen": false, "introducedFromStage": "late" },
-  { "id": "rice_flour", "nameKo": "쌀가루", "category": "grain", "isCommonAllergen": false, "introducedFromStage": "early" },
-  { "id": "wheat_flour", "nameKo": "밀가루", "category": "grain", "isCommonAllergen": true, "introducedFromStage": "middle" },
-  { "id": "pasta_small", "nameKo": "소형 파스타(무염)", "category": "grain", "isCommonAllergen": true, "introducedFromStage": "late" },
-  { "id": "bread_plain", "nameKo": "식빵(무염)", "category": "grain", "isCommonAllergen": true, "introducedFromStage": "late" },
-  { "id": "peanut_butter_unsalted", "nameKo": "땅콩버터(무염)", "category": "protein", "isCommonAllergen": true, "introducedFromStage": "late" },
-  { "id": "almond_powder", "nameKo": "아몬드 가루", "category": "protein", "isCommonAllergen": true, "introducedFromStage": "late" },
-  { "id": "shrimp", "nameKo": "새우", "category": "protein", "isCommonAllergen": true, "introducedFromStage": "finishing" },
-  { "id": "oyster", "nameKo": "굴", "category": "protein", "isCommonAllergen": true, "introducedFromStage": "finishing" }
+  {
+    "id": "rice",
+    "nameKo": "쌀",
+    "category": "grain",
+    "isCommonAllergen": false,
+    "introducedFromStage": "early"
+  },
+  {
+    "id": "oatmeal",
+    "nameKo": "오트밀",
+    "category": "grain",
+    "isCommonAllergen": false,
+    "introducedFromStage": "early"
+  },
+  {
+    "id": "barley",
+    "nameKo": "보리",
+    "category": "grain",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "millet",
+    "nameKo": "기장",
+    "category": "grain",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "sweet_potato",
+    "nameKo": "고구마",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "early"
+  },
+  {
+    "id": "pumpkin",
+    "nameKo": "단호박",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "early"
+  },
+  {
+    "id": "carrot",
+    "nameKo": "당근",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "early"
+  },
+  {
+    "id": "zucchini",
+    "nameKo": "애호박",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "early"
+  },
+  {
+    "id": "potato",
+    "nameKo": "감자",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "early"
+  },
+  {
+    "id": "broccoli",
+    "nameKo": "브로콜리",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "early"
+  },
+  {
+    "id": "spinach",
+    "nameKo": "시금치",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "cabbage",
+    "nameKo": "양배추",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "onion",
+    "nameKo": "양파",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "radish",
+    "nameKo": "무",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "cucumber",
+    "nameKo": "오이",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "tomato",
+    "nameKo": "토마토",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "corn",
+    "nameKo": "옥수수",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "eggplant",
+    "nameKo": "가지",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "mushroom_shiitake",
+    "nameKo": "표고버섯",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "mushroom_king_oyster",
+    "nameKo": "새송이버섯",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "green_onion",
+    "nameKo": "파",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "garlic",
+    "nameKo": "마늘",
+    "category": "seasoning",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "seaweed_miyeok",
+    "nameKo": "미역",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "dried_laver",
+    "nameKo": "김(무염)",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "apple",
+    "nameKo": "사과",
+    "category": "fruit",
+    "isCommonAllergen": false,
+    "introducedFromStage": "early"
+  },
+  {
+    "id": "pear",
+    "nameKo": "배",
+    "category": "fruit",
+    "isCommonAllergen": false,
+    "introducedFromStage": "early"
+  },
+  {
+    "id": "banana",
+    "nameKo": "바나나",
+    "category": "fruit",
+    "isCommonAllergen": false,
+    "introducedFromStage": "early"
+  },
+  {
+    "id": "watermelon",
+    "nameKo": "수박",
+    "category": "fruit",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "melon",
+    "nameKo": "참외",
+    "category": "fruit",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "peach",
+    "nameKo": "복숭아",
+    "category": "fruit",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "blueberry",
+    "nameKo": "블루베리",
+    "category": "fruit",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "strawberry",
+    "nameKo": "딸기",
+    "category": "fruit",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "grape",
+    "nameKo": "포도",
+    "category": "fruit",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "mango",
+    "nameKo": "망고",
+    "category": "fruit",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "beef_minced",
+    "nameKo": "소고기 다짐육",
+    "category": "protein",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "beef_sirloin",
+    "nameKo": "소고기 안심",
+    "category": "protein",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "chicken_breast",
+    "nameKo": "닭가슴살",
+    "category": "protein",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "chicken_tender",
+    "nameKo": "닭안심",
+    "category": "protein",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "pork_loin",
+    "nameKo": "돼지고기 안심",
+    "category": "protein",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "cod",
+    "nameKo": "대구",
+    "category": "protein",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "pollack",
+    "nameKo": "명태(동태)",
+    "category": "protein",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "salmon",
+    "nameKo": "연어",
+    "category": "protein",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "anchovy_dried",
+    "nameKo": "멸치(국물용)",
+    "category": "protein",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "tofu",
+    "nameKo": "두부",
+    "category": "protein",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "egg_yolk",
+    "nameKo": "달걀 노른자",
+    "category": "protein",
+    "isCommonAllergen": true,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "egg_whole",
+    "nameKo": "달걀 전란",
+    "category": "protein",
+    "isCommonAllergen": true,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "black_bean",
+    "nameKo": "검은콩",
+    "category": "protein",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "lentil",
+    "nameKo": "렌틸콩",
+    "category": "protein",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "breast_milk",
+    "nameKo": "모유",
+    "category": "dairy",
+    "isCommonAllergen": false,
+    "introducedFromStage": "early"
+  },
+  {
+    "id": "formula",
+    "nameKo": "분유",
+    "category": "dairy",
+    "isCommonAllergen": false,
+    "introducedFromStage": "early"
+  },
+  {
+    "id": "plain_yogurt",
+    "nameKo": "플레인 요거트",
+    "category": "dairy",
+    "isCommonAllergen": true,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "cheese_natural",
+    "nameKo": "자연치즈(무염)",
+    "category": "dairy",
+    "isCommonAllergen": true,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "butter_unsalted",
+    "nameKo": "무염버터",
+    "category": "dairy",
+    "isCommonAllergen": true,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "olive_oil",
+    "nameKo": "올리브유",
+    "category": "seasoning",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "sesame_oil",
+    "nameKo": "참기름(소량)",
+    "category": "seasoning",
+    "isCommonAllergen": false,
+    "introducedFromStage": "finishing"
+  },
+  {
+    "id": "kelp",
+    "nameKo": "다시마",
+    "category": "seasoning",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "dried_shiitake_powder",
+    "nameKo": "표고버섯 가루",
+    "category": "seasoning",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "perilla_leaf",
+    "nameKo": "깻잎",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "crown_daisy",
+    "nameKo": "쑥갓",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "bok_choy",
+    "nameKo": "청경채",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "lettuce",
+    "nameKo": "상추",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "asparagus",
+    "nameKo": "아스파라거스",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "avocado",
+    "nameKo": "아보카도",
+    "category": "fruit",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "kiwi",
+    "nameKo": "키위",
+    "category": "fruit",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "pineapple",
+    "nameKo": "파인애플",
+    "category": "fruit",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "rice_flour",
+    "nameKo": "쌀가루",
+    "category": "grain",
+    "isCommonAllergen": false,
+    "introducedFromStage": "early"
+  },
+  {
+    "id": "wheat_flour",
+    "nameKo": "밀가루",
+    "category": "grain",
+    "isCommonAllergen": true,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "pasta_small",
+    "nameKo": "소형 파스타(무염)",
+    "category": "grain",
+    "isCommonAllergen": true,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "bread_plain",
+    "nameKo": "식빵(무염)",
+    "category": "grain",
+    "isCommonAllergen": true,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "peanut_butter_unsalted",
+    "nameKo": "땅콩버터(무염)",
+    "category": "protein",
+    "isCommonAllergen": true,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "almond_powder",
+    "nameKo": "아몬드 가루",
+    "category": "protein",
+    "isCommonAllergen": true,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "shrimp",
+    "nameKo": "새우",
+    "category": "protein",
+    "isCommonAllergen": true,
+    "introducedFromStage": "finishing"
+  },
+  {
+    "id": "oyster",
+    "nameKo": "굴",
+    "category": "protein",
+    "isCommonAllergen": true,
+    "introducedFromStage": "finishing"
+  },
+  {
+    "id": "milk",
+    "nameKo": "우유",
+    "category": "dairy",
+    "isCommonAllergen": true,
+    "introducedFromStage": "finishing"
+  },
+  {
+    "id": "tuna_canned",
+    "nameKo": "참치(저염캔)",
+    "category": "protein",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "squid",
+    "nameKo": "오징어",
+    "category": "protein",
+    "isCommonAllergen": true,
+    "introducedFromStage": "finishing"
+  },
+  {
+    "id": "pork_minced",
+    "nameKo": "돼지고기 다짐육",
+    "category": "protein",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "chestnut",
+    "nameKo": "밤",
+    "category": "grain",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "mugwort",
+    "nameKo": "쑥",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "finishing"
+  },
+  {
+    "id": "mushroom_oyster",
+    "nameKo": "느타리버섯",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "mushroom_button",
+    "nameKo": "양송이버섯",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "bell_pepper",
+    "nameKo": "파프리카",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "bean_sprout",
+    "nameKo": "숙주",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "cauliflower",
+    "nameKo": "콜리플라워",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "chard",
+    "nameKo": "근대",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "hijiki",
+    "nameKo": "톳",
+    "category": "vegetable",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "sweet_rice",
+    "nameKo": "찹쌀",
+    "category": "grain",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "sorghum",
+    "nameKo": "수수",
+    "category": "grain",
+    "isCommonAllergen": false,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "potato_starch",
+    "nameKo": "감자전분",
+    "category": "grain",
+    "isCommonAllergen": false,
+    "introducedFromStage": "middle"
+  },
+  {
+    "id": "pancake_flour",
+    "nameKo": "부침가루(저염)",
+    "category": "grain",
+    "isCommonAllergen": true,
+    "introducedFromStage": "late"
+  },
+  {
+    "id": "jujube",
+    "nameKo": "대추",
+    "category": "fruit",
+    "isCommonAllergen": false,
+    "introducedFromStage": "finishing"
+  },
+  {
+    "id": "sesame_seed",
+    "nameKo": "참깨",
+    "category": "seasoning",
+    "isCommonAllergen": false,
+    "introducedFromStage": "finishing"
+  },
+  {
+    "id": "perilla_oil",
+    "nameKo": "들기름(소량)",
+    "category": "seasoning",
+    "isCommonAllergen": false,
+    "introducedFromStage": "finishing"
+  },
+  {
+    "id": "perilla_powder",
+    "nameKo": "들깨가루",
+    "category": "seasoning",
+    "isCommonAllergen": false,
+    "introducedFromStage": "finishing"
+  }
 ]
